@@ -1,0 +1,77 @@
+.input-output {
+  border-color: rgb(56, 56, 102);
+  border-radius: 1%;
+  border-width: 0.5vw;
+  width: 50vw;
+  height: 15vh;
+}
+
+#input-block {
+  margin-left: 20px;
+  font-size: 16px;
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+  width: 50vw;
+}
+
+#option-block {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.function-option {
+  background-color: #fe9307;
+  border-color: #fe9307;
+  color: black;
+  border-radius: 10%;
+  width: 12vw;
+  height: 10vh;
+  margin: auto;
+  margin-top: 1vh;
+}
+
+.function-option:hover {
+  background-color: blue;
+  border-radius: 10%;
+  border-color: blue;
+}
+
+@media screen and (max-width: 400px) {
+  #option-block {
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+  }
+
+  #input-block {
+    position: relative;
+    display: inline-flex;
+    width: 70vw;
+    left: 0vw;
+  }
+
+  .function-option {
+    font-size: 12px;
+    line-height: 5px;
+    border-radius: 10%;
+    width: 30vw;
+    height: 6vh;
+    margin-top: 1vh;
+  }
+
+  .input-output {
+    border-color: rgb(56, 56, 102);
+    border-radius: 1%;
+    border-width: 0.5vw;
+    width: 70vw;
+    height: 15vh;
+  }
+}

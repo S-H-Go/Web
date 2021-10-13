@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/jpg" href="https://www.sweethg.club/wp-content/uploads/2021/08/loge.jpg" />
+  <link rel="stylesheet" href="./Physical experiment data tools.css">
+  <title>物理实验数据处理工具</title>
+</head>
+
+<body>
+  <main id="input-block">
+    <label for="input" class="form-label">在这里输入数据：</label>
+    <textarea id="input" class="input-output" type="text" value=""></textarea>
+    <label for="option-block" class="form-label">点击选项开始计算：</label>
+    <div id="option-block">
+      <button id="option-the-method-of-successional-difference" class="function-option">
+        逐差法
+      </button>
+      <button id="option-item-by-item-sub" class="function-option">
+        逐项相减
+      </button>
+      <button id="option-a-class-uncertainty" class="function-option">
+        A类不确定度
+      </button>
+      <button id="option-sub" class="function-option">相减</button>
+      <button id="option-add" class="function-option">相加</button>
+      <button id="option-square" class="function-option">平方</button>
+      <button id="avg" class="function-option">平均值</button>
+      <button id="sin" class="function-option">sin(角度)</button>
+      <button id="cos" class="function-option">cos(角度)</button>
+    </div>
+    <label for="output" class="form-label">结果在这里：</label>
+    <textarea id="output" class="input-output" type="text" value="输出"></textarea>
+  </main>
+  <script src="./Physical experiment data tools.js"></script>
+</body>
+
+</html>
